@@ -1,0 +1,8 @@
+pandas
+plotly.express
+numpy
+skimage
+dash 
+dash.exceptions 
+os 
+openpyxl
