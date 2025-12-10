@@ -12,7 +12,7 @@ app = Dash(__name__)
 
 
 # Load data, this is the original dataframe with cell age 
-cellage_path = ('/Users/miramota/Desktop/Graphs/DataSheets/WIN_single_cell.xlsx')
+cellage_path = ('/Users/miramota/Desktop/OL_analysis/DataSheets/WIN_single_cell.xlsx')
 cellage_df = pd.read_excel(cellage_path)
 
 #--------------------------------------------------------------------------------------
@@ -107,8 +107,8 @@ def update_graph(option_selected):
     print(type(option_selected))
 
     container= 'Condition chosen: {}'.format(option_selected)
-    no_sheath = plot_metric(cellage_df, 'no_sheaths', option_selected, 'Average Sheath Length across Cell Age')
-    avg_sheaths = plot_metric(cellage_df, 'avg_sheath_len', option_selected, 'Number of Sheaths across Cell Age')
+    no_sheath = plot_metric(cellage_df, 'no_sheaths', option_selected, 'Number of Sheaths across Cell Age')
+    avg_sheaths = plot_metric(cellage_df, 'avg_sheath_len', option_selected, 'Average Sheath Length across Cell Age')
     total_output = plot_metric(cellage_df, 'total_output', option_selected, 'Total Output across Cell Age')
     container = f'Showing results for condition: {option_selected}'
 
