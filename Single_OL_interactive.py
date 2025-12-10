@@ -12,7 +12,7 @@ app = Dash(__name__)
 
 
 # Load data, this is the original dataframe with cell age 
-cellage_path = ('/Users/miramota/Desktop/OL_analysis/DataSheets/WIN_single_cell.xlsx')
+cellage_path = ('/OL_analysis/DataSheets/WIN_single_cell.xlsx')
 cellage_df = pd.read_excel(cellage_path)
 
 #--------------------------------------------------------------------------------------
