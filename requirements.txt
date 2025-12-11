@@ -1,7 +1,7 @@
 pandas
 plotly.express
 numpy
-skimage
+scikit-image
 dash 
 dash.exceptions 
 os 
