@@ -1,10 +1,7 @@
-
-dash
-flask
+dash>=2.14
+flask>=2.3
 gunicorn
 pandas
-plotly.express
-numpy
+numpy>=1.26
 scikit-image
-os 
 openpyxl
