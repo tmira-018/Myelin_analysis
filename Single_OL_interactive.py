@@ -15,9 +15,8 @@ app = Dash(__name__,
 # ------------------------------------------------------------------------------------
 # Import Data
 
-
 # Load data, this is the original dataframe with cell age 
-cellage_path = ('/DataSheets/WIN_single_cell.xlsx')
+cellage_path = ('DataSheets/WIN_single_cell.xlsx')
 cellage_df = pd.read_excel(cellage_path)
 
 #--------------------------------------------------------------------------------------
