@@ -6,7 +6,5 @@ pandas
 plotly.express
 numpy
 scikit-image
-dash 
-dash.exceptions 
 os 
 openpyxl
